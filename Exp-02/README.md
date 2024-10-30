@@ -1,4 +1,8 @@
-# 
+# Exp2 - PPP 协议
+
+---
+
+> 路由器串口的PPP封装
 
 ## Router - 路由器
 
@@ -21,7 +25,6 @@
 
 - DCE 串口线
   - 起始端连接 DCE 设备
-
   - 结束端连接 DTE 设备
 
 - DTE 串口线
@@ -88,3 +91,12 @@ Sending 5, 100-byte ICMP Echos to 192.168.1.2, timeout is 2 seconds:
 !!!!!
 Success rate is 100 percent (5/5), round-trip min/avg/max = 1/3/8 ms
 ```
+
+---
+
+> 路由器串口PPP-PAP认证
+
+
+---
+
+> 路由器串口PPP-CHAP认证
