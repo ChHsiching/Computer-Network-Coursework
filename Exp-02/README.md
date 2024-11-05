@@ -132,7 +132,7 @@ R1(config-if)# ppp pap sent-username <用户名> password <密码>
 
 ```shell
 # 在特权模式下
-R1(config)# ping 192.168.1.2
+R1# ping 192.168.1.2
 ```
 
 ---
@@ -171,5 +171,5 @@ R1(config-if)# ppp authentication chap
 
 ```shell
 # 在特权模式下
-R1(config)# ping 192.168.1.2
+R1# ping 192.168.1.2
 ```
