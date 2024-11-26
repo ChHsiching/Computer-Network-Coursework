@@ -6,15 +6,15 @@
 
 ## 网络拓扑结构 Network Topology 
 
-### 设备清单：
+### 1. 设备清单
 
 - 路由器 * 2  `1841 Router`
 - 交换机 * 2  `2950-24 Switch`
 - 计算机 * 2  `PC-CT PC`
 
-### 设备连接
+### 2. 设备连接
 
-1. PC - Switch 
+1. PC - Switch
 
     `直通线` 连接 `FastEthernet` 以太网口
 
@@ -29,7 +29,7 @@
 
     由于 Cisco 思科 路由器的网口默认状态为 `shutdown`，需要手动打开
 
-### Router 路由器配置
+### 3. Router 路由器配置
 
 分配各个接口的 IP 地址并打开网口
 
@@ -67,7 +67,7 @@ LR(config-if)# ip address 192.168.2.1 255.255.255.0
 LR(config-if)# no shutdown
 ```
 
-### PC 终端配置
+### 4. PC 终端配置
 
 #### 分配 IP 地址
 
@@ -83,7 +83,7 @@ LR(config-if)# no shutdown
     - IP Address: `192.168.3.100`
     - Default Gateway: `192.168.3.1`
 
-### 测试连通
+### 5. 测试连通
 
 测试两台 PC 是否连通
 
